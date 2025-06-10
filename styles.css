@@ -78,7 +78,7 @@ button{
     font-weight: 900;
     color: #f9faf8;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .hero-text, a{
     font-size: 18px;
@@ -95,7 +95,7 @@ button{
 }
 
 
-/* Block two */
+/* Block 2 */
 /* Create cards flexbox */
 .cards{
     display: flex;
@@ -129,8 +129,8 @@ button{
     text-align: center;
 }
 
-/* Block 4 */
-.block-four{
+/* Block 3 */
+.block-three{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,8 +152,8 @@ figcaption{
     text-align: right;
 }
 
-/* Block 5 */
-.block-five{
+/* Block 4 */
+.block-four{
     box-sizing: border-box;
     background-color: #3882f6;
     display: flex;
@@ -185,7 +185,7 @@ figcaption{
 
 
 /* Block 6 */
-.block-six{
+.block-five{
     background-color: #1F2937;
     margin-bottom: 0;
 }

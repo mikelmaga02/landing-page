@@ -69,7 +69,7 @@ button{
 
 /* Wrap left hero body items vertically by restricting max width */
 .left-hero{
-    max-width:400px;
+    max-width:600px;
     margin: 0;
     padding: 0;
 }

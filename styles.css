@@ -1,3 +1,4 @@
+/* Create body flexbox, and add general features like font-family, which is the same throughout the entire page */
 body{
     font-family: Roboto, sans-serif;
     display: flex;
@@ -25,24 +26,27 @@ button{
     border-radius: 8px;
     padding: 8px 24px; 
     cursor: pointer;
-    /* display: flex;
-    flex-shrink: 0; Prevent button from shrinking */
+    display: flex;
+    flex-shrink: 0; /*Prevent buttons from shrinking*/
 }
 
 
-/* Header block */
-/* Space around style, with logo on LHS and other links to the right */
+/* Block 1 */
+.block-one{
+    background-color: #1F2937;
+}
+
 .header{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    flex-grow: 1;
+    padding: 5px 400px 5px;
 }
 
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 750;
 }
 
 /* Spread links horizontally */
@@ -53,16 +57,12 @@ button{
     gap: 12px;
 }
 
-
-/* Block two */
 /* Create hero body flexbox*/
 .hero-body{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; 
-    background-color: #1F2937;
-    padding: 8px 8px 20px;
-    gap: 40px;
+    padding: 5px 400px 25px;
 }
 
 /* Wrap left hero body items vertically by restricting max width */
@@ -97,7 +97,7 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #6D747C;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
 
 

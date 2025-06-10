@@ -95,38 +95,38 @@ button{
 }
 
 
-/* Block three */
+/* Block two */
 /* Create cards flexbox */
 .cards{
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 25px;
-}
-
-.block-three-text{
-    text-align: center;
+    margin-bottom: 15px;
 }
 
 .card-image{
     box-sizing: border-box;
-    height: 125px;
-    width: 125px;
+    width: 250px;
+    height: 275px;
     border: 2px solid blue;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .item{
-    max-width: 150px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
-.block-three-text#header{
+.block-two-text#header{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
 }
 
 /* Block 4 */

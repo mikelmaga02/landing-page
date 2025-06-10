@@ -40,7 +40,8 @@ button{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 400px 5px;
+    padding: 5px 300px 5px;
+    gap: 100px;
 }
 
 .logo{
@@ -62,7 +63,8 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 5px 400px 25px;
+    padding: 5px 300px 25px;
+    gap: 100px;
 }
 
 /* Wrap left hero body items vertically by restricting max width */
